@@ -1,0 +1,56 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div id="dc-carousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2500">
+            <img src="images/DCYC-Weekend-Specials.png" class="img-fluid w-100" />
+        </div>
+        <div class="carousel-item" data-bs-interval="2500">
+            <img src="images/DCYC-Upcoming-Events.png" class="img-fluid w-100"/>
+        </div>
+        <div class="carousel-item" data-bs-interval="2500" >
+            <img src="images/DCYC-Lighthouse.jpg" class="clearfix d-block w-100" />
+            <div class="clearfix d-none d-md-block align-content-start">
+                <h1 class="display-1">Upcoming Events</h1>
+                <p>Easter Brunch</p>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2500">
+            <div class="container-fluid">
+                 <h1>
+                     Weekend Specials
+                     <small class="text-muted">Available after 5:00 PM</small>
+                 </h1>
+                 <div class="row">
+                     <div class="col">
+                             Steak Special
+                     </div>
+                     <div class="col">
+                             $MP
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col">
+                             Seafood Special
+                     </div>
+                     <div class="col">
+                             $MP
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col">
+                             BBQ Special
+                     </div>
+                     <div class="col">
+                             $MP
+                     </div>
+                 </div>
+ 
+            </div>
+        </div>
+    </div>
+</div>
